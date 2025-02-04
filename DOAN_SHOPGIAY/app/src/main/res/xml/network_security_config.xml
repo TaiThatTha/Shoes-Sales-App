@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+       <!-- Sử dụng cho Emulator -->
+        <domain includeSubdomains="true"> https://7b95-2405-4803-c77d-cce0-7dab-2c37-1849-e761.ngrok-free.app</domain> <!-- Sử dụng cho thiết bị thật -->
+    </domain-config>
+</network-security-config>
